@@ -10,3 +10,12 @@ un css con todas las variables y un style.scss que tiene que tener linkeados tod
 
     "puede ser muy interesante la verdad"
 }
+
+{
+	Añadir la metodología a BEM al proyecto
+	(quizás empezar a subdividir el proyecto)
+	(meter las media queries dentro del elemento que las tenga)
+
+	modificar el scss (porque he modificado el HTML, aunque hay que 
+	modificar mas aun.
+}
