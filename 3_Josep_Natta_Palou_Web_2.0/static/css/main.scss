@@ -1,0 +1,205 @@
+@import url(variables.css);
+$color-primario: coral;
+$color-secundario:#fff;
+html {
+   font-size: 16px;
+}
+
+main{
+   background: #21222C;
+   display: flex;
+   flex-direction: column;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 100vw;
+
+   hr{
+      background-color: $color-primario;
+      border-radius: 6px;
+      color: transparent;
+      height: 1px;
+      width: 90%;
+   }  
+   
+   //FORMACION
+   .education{
+      display: flex;
+      flex-direction: column;
+      margin-left: 5%;
+      margin-right: 5%;
+      .tittle{
+         color: $color-primario;
+         font-size: 1rem;
+      }
+      .nombre_estudios{
+         color: $color-secundario;
+         font-size: small;
+      }
+   }
+
+   //SKILLS
+   .skills{
+      margin-left: 5%;
+      margin-right: 5%;
+
+      .skill_tittle{
+         font-size: xx-large;
+         color: $color-primario;
+         text-align: center;
+      }
+      .skill_type{
+         color: $color-primario;
+         font-size: medium;
+         text-align: center;
+      }
+      .list{
+         display: flex;
+         gap: 18%;
+         justify-content: center;
+         color: $color-secundario;
+         border-radius: 7px;
+         border-width: 3px;
+         border-color: $color-primario;
+         border-style: solid;
+         padding-left: 14px;
+         padding-right: 14px;
+      }
+   
+      .programas{
+         margin-top: 60px;
+         
+         .softwareList{
+            color: $color-secundario;
+            border-radius: 7px;
+            border-width: 3px;
+            border-color: $color-primario;
+            border-style: solid;
+            padding-left: 14px;
+            padding-right: 14px;
+         }
+      }
+   
+      .teamwork_tools{
+         margin-bottom: 32px;
+         margin-top: 60px;
+   
+         .tools_list{
+            border-color: $color-primario;
+            border-radius: 7px;
+            border-style: solid;
+            border-width: 3px;
+            color: $color-secundario;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10%;
+            justify-content: center;
+            padding-left: 14px;
+            padding-right: 14px;
+         }
+      }
+   }
+
+   //PORTFOLIO
+   .portfolio{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+
+      .my_projects{
+         color: $color-primario;
+         font-size: 1.5625rem;
+         font-weight: 400;
+      }
+
+      .gallery{
+         align-items: center;
+         display: flex;
+         flex-direction: column;
+         gap: 30px;
+         
+         .this_web{
+            border-color: $color-primario;
+            border-radius: 7px;
+            border-style: solid;
+            border-width: 3px;
+            color: $color-secundario;
+            height: auto;
+            padding-left: 14px;
+            padding-right: 14px;
+            width: 80%;
+
+            .gith{
+               border-color: $color-primario;
+               border-radius: 7px;
+               border-style: solid;
+               border-width: 3px;
+               color: $color-secundario;
+            }
+
+            .lista_Ingredientes{
+               margin-bottom: 20px;
+
+               .Ingredientes{
+                  border-color: $color-primario;
+                  border-radius: 7px;
+                  border-style: solid;
+                  border-width: 3px;
+                  color: $color-secundario;
+                  height: auto;
+                  margin-bottom: 10px;
+                  width: 80%;
+               }
+            }
+         }
+         
+         .fotografia{
+            height: auto;
+            width: 80%;
+         }
+      }
+   }
+   
+   //CONTACTO
+   .contacto{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 30px;
+
+      .tituloSeccion{
+         color: coral;
+         font-size: 1.5rem;
+         text-align: center;
+      }
+
+      .metodo_Contacto{
+         display: flex;
+         flex-direction: column;
+         gap: 2rem;
+         margin-right: auto;
+         
+         .plataforma_de_contacto{
+            .id_Plataforma{   
+               align-content: center;
+               align-items: center;
+               color: coral;
+               display: flex;
+               display: flex;
+               gap: 1rem;
+               justify-content: left;
+               
+               span{
+                  color: coral;
+                  display: flex;
+               }
+            }
+         
+            .enlace_Contacto{
+               color: #fff;
+               text-decoration: none
+            }
+         }
+      }
+   }
+}

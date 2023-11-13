@@ -1,0 +1,12 @@
+<!--cambiar las P por p,
+añadir un css con el normalice,otro con el border box,
+un css con todas las variables y un style.scss que tiene que tener linkeados todos los css-->
+
+{ Carrusel
+    Una idea interesante seria en el apartado de formacion, en la version movil, 
+    añadir un carrusel con dos secciones: 
+        La primera con la formacion (titulo y lugar de formacion)
+        La segunda con las aptitudes desarrolladas en el estudio 
+
+    "puede ser muy interesante la verdad"
+}

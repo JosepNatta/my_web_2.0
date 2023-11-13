@@ -1,0 +1,175 @@
+@import url(variables.css);
+html {
+  font-size: 16px;
+}
+
+main {
+  background: #21222C;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+}
+main hr {
+  background-color: coral;
+  border-radius: 6px;
+  color: transparent;
+  height: 1px;
+  width: 90%;
+}
+main .education {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+main .education .tittle {
+  color: coral;
+  font-size: 1rem;
+}
+main .education .nombre_estudios {
+  color: #fff;
+  font-size: small;
+}
+main .skills {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+main .skills .skill_tittle {
+  font-size: xx-large;
+  color: coral;
+  text-align: center;
+}
+main .skills .skill_type {
+  color: coral;
+  font-size: medium;
+  text-align: center;
+}
+main .skills .list {
+  display: flex;
+  gap: 18%;
+  justify-content: center;
+  color: #fff;
+  border-radius: 7px;
+  border-width: 3px;
+  border-color: coral;
+  border-style: solid;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+main .skills .programas {
+  margin-top: 60px;
+}
+main .skills .programas .softwareList {
+  color: #fff;
+  border-radius: 7px;
+  border-width: 3px;
+  border-color: coral;
+  border-style: solid;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+main .skills .teamwork_tools {
+  margin-bottom: 32px;
+  margin-top: 60px;
+}
+main .skills .teamwork_tools .tools_list {
+  border-color: coral;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 3px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+  justify-content: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+main .portfolio {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+main .portfolio .my_projects {
+  color: coral;
+  font-size: 1.5625rem;
+  font-weight: 400;
+}
+main .portfolio .gallery {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .portfolio .gallery .this_web {
+  border-color: coral;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 3px;
+  color: #fff;
+  height: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 80%;
+}
+main .portfolio .gallery .this_web .gith {
+  border-color: coral;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 3px;
+  color: #fff;
+}
+main .portfolio .gallery .this_web .lista_Ingredientes {
+  margin-bottom: 20px;
+}
+main .portfolio .gallery .this_web .lista_Ingredientes .Ingredientes {
+  border-color: coral;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 3px;
+  color: #fff;
+  height: auto;
+  margin-bottom: 10px;
+  width: 80%;
+}
+main .portfolio .gallery .fotografia {
+  height: auto;
+  width: 80%;
+}
+main .contacto {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 30px;
+}
+main .contacto .tituloSeccion {
+  color: coral;
+  font-size: 1.5rem;
+  text-align: center;
+}
+main .contacto .metodo_Contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-right: auto;
+}
+main .contacto .metodo_Contacto .plataforma_de_contacto .id_Plataforma {
+  align-content: center;
+  align-items: center;
+  color: coral;
+  display: flex;
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+}
+main .contacto .metodo_Contacto .plataforma_de_contacto .id_Plataforma span {
+  color: coral;
+  display: flex;
+}
+main .contacto .metodo_Contacto .plataforma_de_contacto .enlace_Contacto {
+  color: #fff;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

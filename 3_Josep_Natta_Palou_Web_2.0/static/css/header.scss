@@ -1,0 +1,39 @@
+header{
+    background: coral;
+    width: 100vw;
+   font-family: Arial, Helvetica, sans-serif;
+
+    .presentation{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      
+      .target_Presentation{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 34px;
+        margin-top: 50px;
+        .who_i_am{
+            color: #FFF;
+            font-size: 1.5625rem;
+            font-weight: 400;
+         }
+   
+         .Selfportrait{
+            border-radius: 50%;
+            height: 250px;
+            object-fit: cover;
+            width: 250px;
+         }
+   
+         .talking_About_Me{
+            color: #FFF;
+            margin-bottom: 44px;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 44px;
+         }
+      }
+   }
+}
